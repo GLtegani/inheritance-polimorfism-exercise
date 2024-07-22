@@ -14,27 +14,27 @@ public class Employee {
         this.valuePerHour = valuePerHour;
     }
 
-    public String getName() {
+    public final String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public final void setName(String name) {
         this.name = name;
     }
 
-    public Integer getHours() {
+    public final Integer getHours() {
         return hours;
     }
 
-    public void setHours(Integer hours) {
+    public final void setHours(Integer hours) {
         this.hours = hours;
     }
 
-    public Double getValuePerHour() {
+    public final Double getValuePerHour() {
         return valuePerHour;
     }
 
-    public void setValuePerHour(Double valuePerHour) {
+    public final void setValuePerHour(Double valuePerHour) {
         this.valuePerHour = valuePerHour;
     }
 

@@ -12,16 +12,16 @@ public class OutsourcedEmployee extends Employee{
         this.additionalCharge = additionalCharge;
     }
 
-    public Double getAdditionalCharge() {
+    public final Double getAdditionalCharge() {
         return additionalCharge;
     }
 
-    public void setAdditionalCharge(Double additionalCharge) {
+    public final void setAdditionalCharge(Double additionalCharge) {
         this.additionalCharge = additionalCharge;
     }
 
     @Override
-    public Double payment() {
+    public final Double payment() {
         return super.payment() + 1.1 * this.additionalCharge;
     }
 }
