@@ -14,7 +14,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number of employees: ");
-        Integer employersQuantity = sc.nextInt();
+        int employersQuantity = sc.nextInt();
         sc.nextLine();
         List<Employee> list = new ArrayList<>();
 
